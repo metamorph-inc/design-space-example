@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<Design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PowerUnit" DesignID="id-5f95b2d2-196f-41ed-9df7-01de97bbeafe" xmlns="avm">
+  <RootContainer xmlns:q1="avm" xsi:type="q1:Compound" ID="12" Name="PowerUnit" xmlns="">
+    <Container xsi:type="q1:Alternative" ID="13" YPosition="294" XPosition="105" Name="Transmission">
+      <Property xsi:type="q1:PrimitiveProperty" Name="Mass" OnDataSheet="true" ID="property.id-697a586e-18f4-47c5-9116-8fcc64cdba19" XPosition="42" YPosition="672">
+        <Value ID="id-697a586e-18f4-47c5-9116-8fcc64cdba19" Dimensions="" Unit="kg" DimensionType="Scalar" DataType="String">
+          <ValueExpression xsi:type="q1:FixedValue">
+            <Value />
+          </ValueExpression>
+        </Value>
+      </Property>
+      <Property xsi:type="q1:PrimitiveProperty" Name="MaxPowerInput" OnDataSheet="true" ID="property.id-06b9fe63-11ea-41af-a888-878f05f1bbf8" XPosition="574" YPosition="217">
+        <Value ID="id-06b9fe63-11ea-41af-a888-878f05f1bbf8" Dimensions="" Unit="hp" DimensionType="Scalar" DataType="Real">
+          <ValueExpression xsi:type="q1:FixedValue">
+            <Value />
+          </ValueExpression>
+        </Value>
+      </Property>
+      <Property xsi:type="q1:PrimitiveProperty" Name="Price" OnDataSheet="true" ID="property.id-d4c36343-16b0-4be2-8d59-2454d8748581" XPosition="574" YPosition="273">
+        <Value ID="id-d4c36343-16b0-4be2-8d59-2454d8748581" Dimensions="" DimensionType="Scalar" DataType="String">
+          <ValueExpression xsi:type="q1:FixedValue">
+            <Value />
+          </ValueExpression>
+        </Value>
+      </Property>
+      <ComponentInstance XPosition="161" YPosition="357" ComponentID="25ad9d80-5ba0-4f35-b765-990bd4497595" ID="643125f1-b4c8-4438-9e0e-1ba430209fb3" Name="CX35-P800">
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="935aedb1-3e9d-4a3c-a319-66df0543f2ba" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="07134e3b-e44c-4913-b01b-7ec483cc7f84" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="d2b5d0fa-da19-4d09-bee3-b22b83bd8d0c" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+      </ComponentInstance>
+      <ComponentInstance XPosition="161" YPosition="63" ComponentID="8618a969-7f18-4623-ac0a-7f08008d114e" ID="cfd0615b-7822-4423-bc59-fae5a7e8bb92" Name="CX28">
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="22ba5ff2-9d7e-40ee-96aa-1c662f6f7ac5" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="58b066ed-d0a5-4f50-9f85-c5c6054ab82a" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="c2244ed6-5687-4aff-bef8-a58e0582bb4d" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+      </ComponentInstance>
+      <ComponentInstance XPosition="161" YPosition="217" ComponentID="618402e1-ab2b-4001-82f1-5ce390c29249" ID="bd3aca1e-9c69-4ed1-a497-623bad0f168b" Name="CX31-P600">
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="e640ba53-56e9-41fd-93b2-464790b621df" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="b652658a-84f3-4e8b-a83f-c268ab9575fa" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="e312199d-ca36-432e-a59f-1cbea7140f74" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+      </ComponentInstance>
+      <ComponentInstance XPosition="161" YPosition="497" ComponentID="096dfd9d-2d96-46ea-b727-c2a38f956794" ID="1ab04744-9fdf-48e6-98dd-e77baf63e214" Name="TH35-E81">
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="cc44d264-9ef0-48c8-9ca0-0a088f59c374" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="a1e5537a-b19a-44df-877a-a9c2e66fedaa" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="299f236b-c89b-4b66-8330-ea5a6e543a26" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+      </ComponentInstance>
+    </Container>
+    <Container xsi:type="q1:Alternative" ID="14" YPosition="56" XPosition="105" Name="Engine">
+      <Property xsi:type="q1:PrimitiveProperty" Name="Mass" OnDataSheet="true" ID="property.id-d055864e-6a30-4e19-9077-44c22c19382f" XPosition="70" YPosition="28">
+        <Value ID="id-d055864e-6a30-4e19-9077-44c22c19382f" Dimensions="" Unit="kg" DimensionType="Scalar" DataType="Real">
+          <ValueExpression xsi:type="q1:FixedValue">
+            <Value />
+          </ValueExpression>
+        </Value>
+      </Property>
+      <Property xsi:type="q1:PrimitiveProperty" Name="Price" OnDataSheet="true" ID="property.id-59ba43ed-458d-40f1-8e83-276320388097" XPosition="539" YPosition="224">
+        <Value ID="id-59ba43ed-458d-40f1-8e83-276320388097" Dimensions="" DimensionType="Scalar" DataType="Real">
+          <ValueExpression xsi:type="q1:FixedValue">
+            <Value />
+          </ValueExpression>
+        </Value>
+      </Property>
+      <Property xsi:type="q1:PrimitiveProperty" Name="MaximumPower" OnDataSheet="true" ID="property.id-8edbf68f-4b8f-4094-a0b9-1016e42b9d87" XPosition="532" YPosition="273">
+        <Value ID="id-8edbf68f-4b8f-4094-a0b9-1016e42b9d87" Dimensions="" Unit="hp" DimensionType="Scalar" DataType="Real">
+          <ValueExpression xsi:type="q1:FixedValue">
+            <Value />
+          </ValueExpression>
+        </Value>
+      </Property>
+      <ComponentInstance XPosition="126" YPosition="238" ComponentID="32be4ba8-0e86-4b12-8a7b-d6b36e98f029" ID="c0f113a2-23ce-4163-838d-d7467cb39d9c" Name="C9">
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="791a257c-7d97-4594-b6f6-2c26570bb7e9" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="e6fb8bf5-8bec-4b10-8f7a-eb255b659b6b" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="eb6deca0-af70-48a2-97f9-efa702b4cc4b" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+      </ComponentInstance>
+      <ComponentInstance XPosition="126" YPosition="364" ComponentID="019d4bfc-ccc1-4579-80bb-abc971908551" ID="612ed56b-05c3-436b-b837-5efdce4ad385" Name="C13">
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="31689551-590e-4c5d-8bf0-2749dc3e61de" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="6c736bc5-e05e-4fa3-a159-25434784c834" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="a947650d-81ff-40fc-a530-ad1b2a0b2b3c" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+      </ComponentInstance>
+      <ComponentInstance XPosition="126" YPosition="98" ComponentID="551152dc-c239-4a08-8039-46f597b25702" ID="d7212554-cae9-4265-84af-3cad9db4f610" Name="C7">
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="b2a28f38-123f-4dd5-ae5d-ce04ff36349e" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="f6fdddfc-1e9c-4645-acbb-3333081a6647" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="d811950f-bcd8-4927-b4ea-aabdcf8c2aa0" Dimensions="" DimensionType="Scalar" DataType="Real" />
+        </PrimitivePropertyInstance>
+      </ComponentInstance>
+    </Container>
+    <Container xsi:type="q1:Optional" ID="28" YPosition="182" XPosition="105" Name="IntegratedStarterGenerator">
+      <Property xsi:type="q1:PrimitiveProperty" Name="MaxPowerHandling" OnDataSheet="true" ID="property.id-20d5b321-5b2c-41c6-a91d-9abc69df6895" XPosition="728" YPosition="126">
+        <Value ID="id-20d5b321-5b2c-41c6-a91d-9abc69df6895" Dimensions="" Unit="hp" DimensionType="Scalar" DataType="String">
+          <ValueExpression xsi:type="q1:FixedValue">
+            <Value />
+          </ValueExpression>
+        </Value>
+      </Property>
+      <Property xsi:type="q1:PrimitiveProperty" Name="Mass" OnDataSheet="true" ID="property.id-b31ff544-d4b7-446f-bea1-cd9c4a340f20" XPosition="49" YPosition="28">
+        <Value ID="id-b31ff544-d4b7-446f-bea1-cd9c4a340f20" Dimensions="" Unit="kg" DimensionType="Scalar" DataType="String">
+          <ValueExpression xsi:type="q1:FixedValue">
+            <Value />
+          </ValueExpression>
+        </Value>
+      </Property>
+      <Property xsi:type="q1:PrimitiveProperty" Name="MechanicalPowerProductionMax" OnDataSheet="true" ID="property.id-f0da3b03-5cb7-4579-a083-a8c3302e6494" XPosition="728" YPosition="175">
+        <Value ID="id-f0da3b03-5cb7-4579-a083-a8c3302e6494" Dimensions="" Unit="hp" DimensionType="Scalar" DataType="String">
+          <ValueExpression xsi:type="q1:FixedValue">
+            <Value />
+          </ValueExpression>
+        </Value>
+      </Property>
+      <ComponentInstance XPosition="168" YPosition="91" ComponentID="af2da9fa-77d0-439c-9a1b-33048fbbcf7b" ID="a22531e5-fbf4-4217-9549-1fe488d684b9" Name="JenoptikISG">
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="f8525002-b7e3-4287-a369-5367d4f0f8d1" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="fa3276fe-5dcd-4234-a3ba-cbc877fdc938" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+        <PrimitivePropertyInstance IDinComponentModel="">
+          <Value ID="addafaa2-bd70-4f4d-9781-fefb7a3d7d71" Dimensions="" DimensionType="Scalar" DataType="String" />
+        </PrimitivePropertyInstance>
+      </ComponentInstance>
+    </Container>
+    <Property xsi:type="q1:PrimitiveProperty" Name="MaxPowerProduction" OnDataSheet="true" ID="property.id-b5d92027-149b-454b-b4cb-a81710d01aae" XPosition="483" YPosition="84">
+      <Value ID="id-b5d92027-149b-454b-b4cb-a81710d01aae" Dimensions="" DimensionType="Scalar" DataType="String">
+        <ValueExpression xsi:type="q1:DerivedValue" ValueSource="id-53f5a073-bb44-4768-bb0c-47a8b62097c7" />
+      </Value>
+    </Property>
+    <Property xsi:type="q1:PrimitiveProperty" Name="TotalMass" OnDataSheet="true" ID="property.id-c67c924c-5c61-4db8-b042-00dd88b6a5e9" XPosition="273" YPosition="420">
+      <Value ID="id-c67c924c-5c61-4db8-b042-00dd88b6a5e9" Dimensions="" DimensionType="Scalar" DataType="String">
+        <ValueExpression xsi:type="q1:DerivedValue" ValueSource="id-ba50491c-e38b-4bb6-937c-13e161262ac5" />
+      </Value>
+    </Property>
+    <Property xsi:type="q1:PrimitiveProperty" Name="TransmissionPowerOverhead" OnDataSheet="true" ID="property.id-6c043d90-f01f-4d15-bed8-a6bf6ca6671d" XPosition="665" YPosition="175">
+      <Value ID="id-6c043d90-f01f-4d15-bed8-a6bf6ca6671d" Dimensions="" DimensionType="Scalar" DataType="String">
+        <ValueExpression xsi:type="q1:DerivedValue" ValueSource="id-b821c3fc-5660-4852-943c-bf9d9f4fece5" />
+      </Value>
+    </Property>
+    <Formula xsi:type="q1:SimpleFormula" ID="id-ba50491c-e38b-4bb6-937c-13e161262ac5" Name="SimpleFormula" XPosition="133" YPosition="413" Operation="Addition" Operand="id-b31ff544-d4b7-446f-bea1-cd9c4a340f20 id-697a586e-18f4-47c5-9116-8fcc64cdba19 id-d055864e-6a30-4e19-9077-44c22c19382f" />
+    <Formula xsi:type="q1:SimpleFormula" ID="id-53f5a073-bb44-4768-bb0c-47a8b62097c7" Name="SimpleFormula" XPosition="385" YPosition="77" Operation="Addition" Operand="id-8edbf68f-4b8f-4094-a0b9-1016e42b9d87 id-20d5b321-5b2c-41c6-a91d-9abc69df6895" />
+    <Formula xsi:type="q1:ComplexFormula" ID="id-b821c3fc-5660-4852-943c-bf9d9f4fece5" Name="CustomFormula" XPosition="567" YPosition="182" Expression="TransmissionMaxPower - MaxPowerProduction">
+      <Operand Symbol="TransmissionMaxPower" ValueSource="id-06b9fe63-11ea-41af-a888-878f05f1bbf8" />
+      <Operand Symbol="MaxPowerProduction" ValueSource="id-b5d92027-149b-454b-b4cb-a81710d01aae" />
+    </Formula>
+  </RootContainer>
+</Design>
