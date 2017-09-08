@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE project SYSTEM "mga.dtd">
 
-<project guid="{1EE8C341-E367-4A0F-BFAD-ADCDE6E9C033}" cdate="Fri Sep 08 09:46:59 2017" mdate="Fri Sep 08 09:46:59 2017" version="" metaguid="{A466BC6E-DE93-0D0D-1F28-45F3067658CC}" metaversion="14.13-t25-airbus" metaname="CyPhyML">
+<project guid="{00985DBF-A59F-431A-AD37-DD7418E88AFE}" cdate="Fri Sep 08 09:46:59 2017" mdate="Fri Sep 08 09:46:59 2017" version="" metaguid="{A466BC6E-DE93-0D0D-1F28-45F3067658CC}" metaversion="14.13-t25-airbus" metaname="CyPhyML">
 	<name>design-space-example</name>
 	<comment></comment>
 	<author></author>
@@ -23682,7 +23682,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>21,644</value>
+									<value>42,672</value>
 								</regnode>
 							</regnode>
 							<regnode name="BehaviorModelsAspect" status="undefined">
@@ -23772,7 +23772,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>553,91</value>
+									<value>574,217</value>
 								</regnode>
 							</regnode>
 							<regnode name="BehaviorModelsAspect" status="undefined">
@@ -23862,7 +23862,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>595,147</value>
+									<value>574,273</value>
 								</regnode>
 							</regnode>
 							<regnode name="BehaviorModelsAspect" status="undefined">
@@ -24377,9 +24377,6 @@
 							<value>2/18</value>
 						</attribute>
 					</reference>
-					<reference id="id-0067-00000384" kind="CWCReference" role="CWCReference" guid="{2d29ecc6-4eaf-4984-85b1-ba09c5fc464b}" relid="0x17" referred="id-0065-00000278">
-						<name>configurations ref</name>
-					</reference>
 					<connection id="id-0068-0000002d" kind="ValueFlow" role="ValueFlow" guid="{476b443b-19ea-4fb6-adc9-0640172851f8}" relid="0x9">
 						<name>ValueFlow</name>
 						<regnode name="autorouterPref" isopaque="yes">
@@ -24636,37 +24633,37 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>42,42</value>
+									<value>28,791</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>70,28</value>
+									<value>28,791</value>
 								</regnode>
 							</regnode>
 							<regnode name="SimulinkAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>70,28</value>
+									<value>28,791</value>
 								</regnode>
 							</regnode>
 							<regnode name="SolidModeling" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>70,28</value>
+									<value>28,791</value>
 								</regnode>
 							</regnode>
 							<regnode name="SystemCAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>70,28</value>
+									<value>28,791</value>
 								</regnode>
 							</regnode>
 							<regnode name="ValueFlowAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>70,28</value>
+									<value>28,791</value>
 								</regnode>
 							</regnode>
 						</regnode>
@@ -24714,7 +24711,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,189</value>
+									<value>532,273</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
@@ -24792,7 +24789,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>644,105</value>
+									<value>539,224</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
@@ -24876,7 +24873,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>259,329</value>
+									<value>126,364</value>
 								</regnode>
 							</regnode>
 							<regnode name="BondGraphAspect2" status="undefined">
@@ -24984,7 +24981,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>259,77</value>
+									<value>126,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="BondGraphAspect2" status="undefined">
@@ -25092,7 +25089,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>259,203</value>
+									<value>126,238</value>
 								</regnode>
 							</regnode>
 							<regnode name="BondGraphAspect2" status="undefined">
@@ -25194,91 +25191,91 @@
 							<regnode name="AbstractPortAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>259,581</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="BondGraphAspect2" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="Car" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="ConnectorAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>315,630</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="DynamicsAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="ModelicaAspect2" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="RFAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="SchematicAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="SimulinkAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="SimulinkAspect2" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="SolidModeling" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="SystemCAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 							<regnode name="ValueFlowAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,444</value>
+									<value>126,658</value>
 								</regnode>
 							</regnode>
 						</regnode>
@@ -25302,31 +25299,31 @@
 							<regnode name="AbstractPortAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>259,455</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="BondGraphAspect2" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="Car" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="ConnectorAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
@@ -25338,55 +25335,55 @@
 							<regnode name="DynamicsAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="ModelicaAspect2" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="RFAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="SchematicAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="SimulinkAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="SimulinkAspect2" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="SolidModeling" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="SystemCAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 							<regnode name="ValueFlowAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>126,524</value>
+									<value>126,518</value>
 								</regnode>
 							</regnode>
 						</regnode>
@@ -25402,9 +25399,6 @@
 						<attribute kind="NumAssociatedConfigs">
 							<value>3/18</value>
 						</attribute>
-					</reference>
-					<reference id="id-0067-00000386" kind="CWCReference" role="CWCReference" guid="{a1968da8-6b0a-49f8-b0a6-aecc694d69a3}" relid="0x1b" referred="id-0065-00000278">
-						<name>configurations ref</name>
 					</reference>
 					<connection id="id-0068-00000039" kind="ValueFlow" role="ValueFlow" guid="{e2c5e0d4-f3ad-4ffd-9ebb-2eab1d87b9de}" relid="0x8">
 						<name>ValueFlow</name>
@@ -25677,7 +25671,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>770,63</value>
+									<value>721,35</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
@@ -25689,25 +25683,25 @@
 							<regnode name="SimulinkAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>770,63</value>
+									<value>721,35</value>
 								</regnode>
 							</regnode>
 							<regnode name="SolidModeling" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>770,63</value>
+									<value>721,35</value>
 								</regnode>
 							</regnode>
 							<regnode name="SystemCAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>770,63</value>
+									<value>721,35</value>
 								</regnode>
 							</regnode>
 							<regnode name="ValueFlowAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>770,63</value>
+									<value>721,35</value>
 								</regnode>
 							</regnode>
 						</regnode>
@@ -25752,7 +25746,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,175</value>
+									<value>630,175</value>
 								</regnode>
 							</regnode>
 							<regnode name="BehaviorModelsAspect" status="undefined">
@@ -25776,25 +25770,25 @@
 							<regnode name="SimulinkAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,175</value>
+									<value>630,175</value>
 								</regnode>
 							</regnode>
 							<regnode name="SolidModeling" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,175</value>
+									<value>630,175</value>
 								</regnode>
 							</regnode>
 							<regnode name="SystemCAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,175</value>
+									<value>630,175</value>
 								</regnode>
 							</regnode>
 							<regnode name="ValueFlowAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,175</value>
+									<value>630,175</value>
 								</regnode>
 							</regnode>
 						</regnode>
@@ -25842,7 +25836,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,126</value>
+									<value>630,126</value>
 								</regnode>
 							</regnode>
 							<regnode name="BehaviorModelsAspect" status="undefined">
@@ -25866,25 +25860,25 @@
 							<regnode name="SimulinkAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,126</value>
+									<value>630,126</value>
 								</regnode>
 							</regnode>
 							<regnode name="SolidModeling" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,126</value>
+									<value>630,126</value>
 								</regnode>
 							</regnode>
 							<regnode name="SystemCAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,126</value>
+									<value>630,126</value>
 								</regnode>
 							</regnode>
 							<regnode name="ValueFlowAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,126</value>
+									<value>630,126</value>
 								</regnode>
 							</regnode>
 						</regnode>
@@ -25932,37 +25926,37 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>49,28</value>
+									<value>42,252</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>42,28</value>
+									<value>42,252</value>
 								</regnode>
 							</regnode>
 							<regnode name="SimulinkAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>49,28</value>
+									<value>42,252</value>
 								</regnode>
 							</regnode>
 							<regnode name="SolidModeling" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>49,28</value>
+									<value>42,252</value>
 								</regnode>
 							</regnode>
 							<regnode name="SystemCAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>49,28</value>
+									<value>42,252</value>
 								</regnode>
 							</regnode>
 							<regnode name="ValueFlowAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>49,28</value>
+									<value>42,252</value>
 								</regnode>
 							</regnode>
 						</regnode>
@@ -26010,7 +26004,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,28</value>
+									<value>441,28</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
@@ -26022,25 +26016,25 @@
 							<regnode name="SimulinkAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,28</value>
+									<value>441,28</value>
 								</regnode>
 							</regnode>
 							<regnode name="SolidModeling" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,28</value>
+									<value>441,28</value>
 								</regnode>
 							</regnode>
 							<regnode name="SystemCAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,28</value>
+									<value>441,28</value>
 								</regnode>
 							</regnode>
 							<regnode name="ValueFlowAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>728,28</value>
+									<value>441,28</value>
 								</regnode>
 							</regnode>
 						</regnode>
@@ -26085,7 +26079,7 @@
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>833,42</value>
+									<value>861,28</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
@@ -26097,25 +26091,25 @@
 							<regnode name="SimulinkAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>833,42</value>
+									<value>861,28</value>
 								</regnode>
 							</regnode>
 							<regnode name="SolidModeling" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>833,42</value>
+									<value>861,28</value>
 								</regnode>
 							</regnode>
 							<regnode name="SystemCAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>833,42</value>
+									<value>861,28</value>
 								</regnode>
 							</regnode>
 							<regnode name="ValueFlowAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>833,42</value>
+									<value>861,28</value>
 								</regnode>
 							</regnode>
 						</regnode>
@@ -26163,31 +26157,31 @@
 							<regnode name="AbstractPortAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="BondGraphAspect2" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="Car" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="ConnectorAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
@@ -26199,55 +26193,55 @@
 							<regnode name="DynamicsAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="ModelicaAspect2" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="RFAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="SchematicAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="SimulinkAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="SimulinkAspect2" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="SolidModeling" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="SystemCAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 							<regnode name="ValueFlowAspect" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>168,91</value>
+									<value>140,98</value>
 								</regnode>
 							</regnode>
 						</regnode>
@@ -26263,9 +26257,6 @@
 						<attribute kind="NumAssociatedConfigs">
 							<value>6/18</value>
 						</attribute>
-					</reference>
-					<reference id="id-0067-00000388" kind="CWCReference" role="CWCReference" guid="{4bb61705-fb38-42ab-8e55-cfee19cb5ce7}" relid="0x14" referred="id-0065-00000278">
-						<name>configurations ref</name>
 					</reference>
 					<connection id="id-0068-00000048" kind="ValueFlow" role="ValueFlow" guid="{82fe7737-decf-4aa8-9f5d-fd1aff8befd1}" relid="0x8">
 						<name>ValueFlow</name>
@@ -26332,357 +26323,6 @@
 						<connpoint role="src" target="id-0066-000000e6"/>
 						<connpoint role="dst" target="id-0067-00000190"/>
 					</connection>
-				</model>
-				<model id="id-0065-00000278" kind="Configurations" role="Configurations" guid="{3aa8c559-8741-45ef-89dc-7fda3c07a88d}" relid="0x27" childrelidcntr="0x12">
-					<name>Exported-Configurations-at--09-08--09-50-45</name>
-					<regnode name="PartRegs" status="undefined">
-						<value></value>
-						<regnode name="DesignSpaceAspect" status="undefined">
-							<value></value>
-							<regnode name="Position" isopaque="yes">
-								<value>7,7</value>
-							</regnode>
-						</regnode>
-					</regnode>
-					<attribute kind="ID" status="meta">
-						<value>0</value>
-					</attribute>
-					<attribute kind="applyAll">
-						<value>false</value>
-					</attribute>
-					<attribute kind="configSize">
-						<value>18</value>
-					</attribute>
-					<attribute kind="isArchived" status="meta">
-						<value>false</value>
-					</attribute>
-					<attribute kind="isDirty">
-						<value>false</value>
-					</attribute>
-					<model id="id-0065-00000279" kind="CWC" role="CWC" guid="{b71d4960-6b3b-4e03-b85f-12d29aa90a14}" relid="0x1" childrelidcntr="0x3">
-						<name>cfg1</name>
-						<attribute kind="CfgID">
-							<value>F4F1BE2D</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>b71d4960-6b3b-4e03-b85f-12d29aa90a14</value>
-						</attribute>
-						<reference id="id-0067-00000383" kind="DesignEntityRef" role="DesignEntityRef" guid="{799c46b0-cb40-4863-93f1-b493452da8aa}" relid="0x1" referred="id-0067-00000374">
-							<name>CX31-P600_ref</name>
-						</reference>
-						<reference id="id-0067-00000385" kind="DesignEntityRef" role="DesignEntityRef" guid="{84de856e-78c0-485c-a99a-46490e76fe54}" relid="0x2" referred="id-0067-00000379">
-							<name>C9_ref</name>
-						</reference>
-						<reference id="id-0067-00000387" kind="DesignEntityRef" role="DesignEntityRef" guid="{a54eb71a-fd7a-4ce9-abcb-ffec17decdab}" relid="0x3" referred="id-0067-00000351">
-							<name>JenoptikISG_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-0000027a" kind="CWC" role="CWC" guid="{336efa5b-f349-4285-8a34-b97bd2fe867f}" relid="0x2" childrelidcntr="0x3">
-						<name>cfg2</name>
-						<attribute kind="CfgID">
-							<value>82EF4D67</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>336efa5b-f349-4285-8a34-b97bd2fe867f</value>
-						</attribute>
-						<reference id="id-0067-00000389" kind="DesignEntityRef" role="DesignEntityRef" guid="{9e82ce5e-65e9-412d-9a82-f24258317c80}" relid="0x1" referred="id-0067-00000376">
-							<name>TH35-E81_ref</name>
-						</reference>
-						<reference id="id-0067-0000038a" kind="DesignEntityRef" role="DesignEntityRef" guid="{8af036ad-563c-45a9-bdf5-4b71bc2e45df}" relid="0x2" referred="id-0067-00000379">
-							<name>C9_ref</name>
-						</reference>
-						<reference id="id-0067-0000038b" kind="NullOptionRef" role="NullOptionRef" guid="{e9deb10b-81a5-4f20-8586-bb5934534e9f}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-0000027b" kind="CWC" role="CWC" guid="{5cf1bc1f-42ad-4e3f-91be-79709d5187cf}" relid="0x3" childrelidcntr="0x3">
-						<name>cfg3</name>
-						<attribute kind="CfgID">
-							<value>906F4D78</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>5cf1bc1f-42ad-4e3f-91be-79709d5187cf</value>
-						</attribute>
-						<reference id="id-0067-0000038c" kind="DesignEntityRef" role="DesignEntityRef" guid="{7a9d1536-b52f-44fe-a94a-49ef329ab349}" relid="0x1" referred="id-0067-00000374">
-							<name>CX31-P600_ref</name>
-						</reference>
-						<reference id="id-0067-0000038d" kind="DesignEntityRef" role="DesignEntityRef" guid="{e4400e6c-24cf-42e3-9a0b-0a3dde8129d0}" relid="0x2" referred="id-0067-0000037b">
-							<name>C15_ref</name>
-						</reference>
-						<reference id="id-0067-0000038e" kind="NullOptionRef" role="NullOptionRef" guid="{be4509f7-2bcb-4838-8e0b-d005feeb6622}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-0000027c" kind="CWC" role="CWC" guid="{2ca5d2a2-bc24-4d93-9582-a305b816c63d}" relid="0x4" childrelidcntr="0x3">
-						<name>cfg4</name>
-						<attribute kind="CfgID">
-							<value>D1E1112E</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>2ca5d2a2-bc24-4d93-9582-a305b816c63d</value>
-						</attribute>
-						<reference id="id-0067-0000038f" kind="DesignEntityRef" role="DesignEntityRef" guid="{e2d59ae9-7f86-4fb1-a7aa-d95e372c6ec4}" relid="0x1" referred="id-0067-00000374">
-							<name>CX31-P600_ref</name>
-						</reference>
-						<reference id="id-0067-00000390" kind="DesignEntityRef" role="DesignEntityRef" guid="{d140ccc1-c38e-41e1-8a3b-83c33dd8d38e}" relid="0x2" referred="id-0067-00000379">
-							<name>C9_ref</name>
-						</reference>
-						<reference id="id-0067-00000391" kind="NullOptionRef" role="NullOptionRef" guid="{07158949-5b8f-428d-8342-1a4efa10e908}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-0000027d" kind="CWC" role="CWC" guid="{8f93abd9-0a8e-48b0-b4ce-409c20231bb8}" relid="0x5" childrelidcntr="0x3">
-						<name>cfg5</name>
-						<attribute kind="CfgID">
-							<value>65576060</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>8f93abd9-0a8e-48b0-b4ce-409c20231bb8</value>
-						</attribute>
-						<reference id="id-0067-00000392" kind="DesignEntityRef" role="DesignEntityRef" guid="{78bed2b2-30f2-44fd-b843-be70d1410c7f}" relid="0x1" referred="id-0067-00000376">
-							<name>TH35-E81_ref</name>
-						</reference>
-						<reference id="id-0067-00000393" kind="DesignEntityRef" role="DesignEntityRef" guid="{9cd30830-4605-4987-acd5-01d2e4f9cb1b}" relid="0x2" referred="id-0067-00000378">
-							<name>C7_ref</name>
-						</reference>
-						<reference id="id-0067-00000394" kind="NullOptionRef" role="NullOptionRef" guid="{30b66c08-2c64-4481-9b51-9911ad5f0949}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-0000027e" kind="CWC" role="CWC" guid="{c0d07e99-d41a-443a-b701-a8fd801ae908}" relid="0x6" childrelidcntr="0x3">
-						<name>cfg6</name>
-						<attribute kind="CfgID">
-							<value>A64E1604</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>c0d07e99-d41a-443a-b701-a8fd801ae908</value>
-						</attribute>
-						<reference id="id-0067-00000395" kind="DesignEntityRef" role="DesignEntityRef" guid="{33e9214d-be01-4a48-a81e-529266d1048b}" relid="0x1" referred="id-0067-00000375">
-							<name>CX35-P800_ref</name>
-						</reference>
-						<reference id="id-0067-00000396" kind="DesignEntityRef" role="DesignEntityRef" guid="{3618a4f2-e507-4866-b59e-f8cc05d3e268}" relid="0x2" referred="id-0067-00000377">
-							<name>C13_ref</name>
-						</reference>
-						<reference id="id-0067-00000397" kind="NullOptionRef" role="NullOptionRef" guid="{9aca7afe-ffd2-41c4-b875-f551982dc7fe}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-0000027f" kind="CWC" role="CWC" guid="{01aa37f0-33c7-4341-919b-9728c11ac662}" relid="0x7" childrelidcntr="0x3">
-						<name>cfg7</name>
-						<attribute kind="CfgID">
-							<value>790CE84D</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>01aa37f0-33c7-4341-919b-9728c11ac662</value>
-						</attribute>
-						<reference id="id-0067-00000398" kind="DesignEntityRef" role="DesignEntityRef" guid="{d5afb4bf-82cb-41fa-acfb-bb6977c062bb}" relid="0x1" referred="id-0067-00000374">
-							<name>CX31-P600_ref</name>
-						</reference>
-						<reference id="id-0067-00000399" kind="DesignEntityRef" role="DesignEntityRef" guid="{eb4ff42d-f12c-41fa-8291-937f35328436}" relid="0x2" referred="id-0067-00000377">
-							<name>C13_ref</name>
-						</reference>
-						<reference id="id-0067-0000039a" kind="NullOptionRef" role="NullOptionRef" guid="{de4fe039-8d7c-4532-9687-35e1fc21b0f7}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-00000280" kind="CWC" role="CWC" guid="{6b6df3a4-cd16-4fc0-bbc6-98352275e4c1}" relid="0x8" childrelidcntr="0x3">
-						<name>cfg8</name>
-						<attribute kind="CfgID">
-							<value>E74DC1BB</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>6b6df3a4-cd16-4fc0-bbc6-98352275e4c1</value>
-						</attribute>
-						<reference id="id-0067-0000039b" kind="DesignEntityRef" role="DesignEntityRef" guid="{d3cd1002-3558-4411-9729-7f62ea7b7e32}" relid="0x1" referred="id-0067-00000373">
-							<name>CX28_ref</name>
-						</reference>
-						<reference id="id-0067-0000039c" kind="DesignEntityRef" role="DesignEntityRef" guid="{cfdbcd89-76cc-47f0-88b3-778376d4b5c4}" relid="0x2" referred="id-0067-00000379">
-							<name>C9_ref</name>
-						</reference>
-						<reference id="id-0067-0000039d" kind="NullOptionRef" role="NullOptionRef" guid="{0d2f9614-3248-4b3f-9afc-61d39181a756}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-00000281" kind="CWC" role="CWC" guid="{e132b791-b813-48a5-a17a-ce1c4599ecf4}" relid="0x9" childrelidcntr="0x3">
-						<name>cfg9</name>
-						<attribute kind="CfgID">
-							<value>00F5ECBC</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>e132b791-b813-48a5-a17a-ce1c4599ecf4</value>
-						</attribute>
-						<reference id="id-0067-0000039e" kind="DesignEntityRef" role="DesignEntityRef" guid="{c84aef5b-486c-4903-a782-9dea447de7de}" relid="0x1" referred="id-0067-00000373">
-							<name>CX28_ref</name>
-						</reference>
-						<reference id="id-0067-0000039f" kind="DesignEntityRef" role="DesignEntityRef" guid="{e0c4b7fe-c3e6-4325-877a-f6929ee1c11b}" relid="0x2" referred="id-0067-00000378">
-							<name>C7_ref</name>
-						</reference>
-						<reference id="id-0067-000003a0" kind="NullOptionRef" role="NullOptionRef" guid="{176b0fb7-745f-4da2-ab77-95afecd58f16}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-00000282" kind="CWC" role="CWC" guid="{96688d53-c5f2-4912-98e3-31a35e34ba04}" relid="0xa" childrelidcntr="0x3">
-						<name>cfg10</name>
-						<attribute kind="CfgID">
-							<value>36593C29</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>96688d53-c5f2-4912-98e3-31a35e34ba04</value>
-						</attribute>
-						<reference id="id-0067-000003a1" kind="DesignEntityRef" role="DesignEntityRef" guid="{256159d5-51d1-474a-a462-1782cf36f16a}" relid="0x1" referred="id-0067-00000374">
-							<name>CX31-P600_ref</name>
-						</reference>
-						<reference id="id-0067-000003a2" kind="DesignEntityRef" role="DesignEntityRef" guid="{5bfd0996-10e5-47b4-9f8c-5d86ba36937a}" relid="0x2" referred="id-0067-00000378">
-							<name>C7_ref</name>
-						</reference>
-						<reference id="id-0067-000003a3" kind="NullOptionRef" role="NullOptionRef" guid="{602efd6c-1428-4c03-8d45-ff33228ae270}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-00000283" kind="CWC" role="CWC" guid="{f8ace712-b152-4eab-a078-87a96bf73f26}" relid="0xb" childrelidcntr="0x3">
-						<name>cfg11</name>
-						<attribute kind="CfgID">
-							<value>422F437D</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>f8ace712-b152-4eab-a078-87a96bf73f26</value>
-						</attribute>
-						<reference id="id-0067-000003a4" kind="DesignEntityRef" role="DesignEntityRef" guid="{58a793bd-80c3-49b0-be0d-8943dc3f3f0c}" relid="0x1" referred="id-0067-00000375">
-							<name>CX35-P800_ref</name>
-						</reference>
-						<reference id="id-0067-000003a5" kind="DesignEntityRef" role="DesignEntityRef" guid="{6ddfe77a-a1a4-44ed-a03d-8c2e66bf78ac}" relid="0x2" referred="id-0067-00000377">
-							<name>C13_ref</name>
-						</reference>
-						<reference id="id-0067-000003a6" kind="DesignEntityRef" role="DesignEntityRef" guid="{7653a78f-143b-4750-befa-5e2ec52363c8}" relid="0x3" referred="id-0067-00000351">
-							<name>JenoptikISG_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-00000284" kind="CWC" role="CWC" guid="{8dacafe5-5ae9-4325-840d-b4f61f55cd42}" relid="0xc" childrelidcntr="0x3">
-						<name>cfg12</name>
-						<attribute kind="CfgID">
-							<value>1349932A</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>8dacafe5-5ae9-4325-840d-b4f61f55cd42</value>
-						</attribute>
-						<reference id="id-0067-000003a7" kind="DesignEntityRef" role="DesignEntityRef" guid="{eb1ca838-058f-40b9-bde7-72ae6385fcbc}" relid="0x1" referred="id-0067-00000374">
-							<name>CX31-P600_ref</name>
-						</reference>
-						<reference id="id-0067-000003a8" kind="DesignEntityRef" role="DesignEntityRef" guid="{68ae51b3-ba35-4952-bb50-5dd225eb17c4}" relid="0x2" referred="id-0067-00000378">
-							<name>C7_ref</name>
-						</reference>
-						<reference id="id-0067-000003a9" kind="DesignEntityRef" role="DesignEntityRef" guid="{6cb5b57a-fdef-4c98-a1b3-f78ed2c4890c}" relid="0x3" referred="id-0067-00000351">
-							<name>JenoptikISG_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-00000285" kind="CWC" role="CWC" guid="{cbb36352-11b0-4ae4-8792-5fdc73cd879b}" relid="0xd" childrelidcntr="0x3">
-						<name>cfg13</name>
-						<attribute kind="CfgID">
-							<value>7BD2C409</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>cbb36352-11b0-4ae4-8792-5fdc73cd879b</value>
-						</attribute>
-						<reference id="id-0067-000003aa" kind="DesignEntityRef" role="DesignEntityRef" guid="{fb5d631a-e3dc-42e8-92a3-ea22c07b6027}" relid="0x1" referred="id-0067-00000375">
-							<name>CX35-P800_ref</name>
-						</reference>
-						<reference id="id-0067-000003ab" kind="DesignEntityRef" role="DesignEntityRef" guid="{02568834-1f84-4b02-8207-57dc3ac17069}" relid="0x2" referred="id-0067-00000378">
-							<name>C7_ref</name>
-						</reference>
-						<reference id="id-0067-000003ac" kind="DesignEntityRef" role="DesignEntityRef" guid="{17779163-4e5c-4b3f-9505-ffc1d9a1be76}" relid="0x3" referred="id-0067-00000351">
-							<name>JenoptikISG_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-00000286" kind="CWC" role="CWC" guid="{9df9138a-8971-4cb7-a9fb-edb79be12c3a}" relid="0xe" childrelidcntr="0x3">
-						<name>cfg14</name>
-						<attribute kind="CfgID">
-							<value>1448B685</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>9df9138a-8971-4cb7-a9fb-edb79be12c3a</value>
-						</attribute>
-						<reference id="id-0067-000003ad" kind="DesignEntityRef" role="DesignEntityRef" guid="{bfdf6bc6-03ca-44de-8f2c-89a5c0e3f9b8}" relid="0x1" referred="id-0067-00000375">
-							<name>CX35-P800_ref</name>
-						</reference>
-						<reference id="id-0067-000003ae" kind="DesignEntityRef" role="DesignEntityRef" guid="{ca8b3a34-aaba-4ed5-8e98-4791a3a10b36}" relid="0x2" referred="id-0067-00000378">
-							<name>C7_ref</name>
-						</reference>
-						<reference id="id-0067-000003af" kind="NullOptionRef" role="NullOptionRef" guid="{d34f3b0b-34cd-45f6-9853-e2c751097b06}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-00000287" kind="CWC" role="CWC" guid="{44fc5474-5a62-496e-9cce-bed01d6ca604}" relid="0xf" childrelidcntr="0x3">
-						<name>cfg15</name>
-						<attribute kind="CfgID">
-							<value>AB4CE648</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>44fc5474-5a62-496e-9cce-bed01d6ca604</value>
-						</attribute>
-						<reference id="id-0067-000003b0" kind="DesignEntityRef" role="DesignEntityRef" guid="{42891fdb-c962-4481-822a-f0c60b483872}" relid="0x1" referred="id-0067-00000375">
-							<name>CX35-P800_ref</name>
-						</reference>
-						<reference id="id-0067-000003b1" kind="DesignEntityRef" role="DesignEntityRef" guid="{a6ac7525-13b2-4449-999f-dbd02c17f160}" relid="0x2" referred="id-0067-0000037b">
-							<name>C15_ref</name>
-						</reference>
-						<reference id="id-0067-000003b2" kind="DesignEntityRef" role="DesignEntityRef" guid="{185bc05c-bb37-4b89-98bf-85a08946ce75}" relid="0x3" referred="id-0067-00000351">
-							<name>JenoptikISG_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-00000288" kind="CWC" role="CWC" guid="{7d0147d3-e534-4260-a850-aa83d8f8c27d}" relid="0x10" childrelidcntr="0x3">
-						<name>cfg16</name>
-						<attribute kind="CfgID">
-							<value>F3F09B82</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>7d0147d3-e534-4260-a850-aa83d8f8c27d</value>
-						</attribute>
-						<reference id="id-0067-000003b3" kind="DesignEntityRef" role="DesignEntityRef" guid="{457d22b9-f7fc-4f3c-ab6c-828a0190847b}" relid="0x1" referred="id-0067-00000375">
-							<name>CX35-P800_ref</name>
-						</reference>
-						<reference id="id-0067-000003b4" kind="DesignEntityRef" role="DesignEntityRef" guid="{84ae210b-fe7b-4f28-8670-cd371a4d2d8b}" relid="0x2" referred="id-0067-00000379">
-							<name>C9_ref</name>
-						</reference>
-						<reference id="id-0067-000003b5" kind="NullOptionRef" role="NullOptionRef" guid="{6042ad56-b2f9-49c0-a4ac-431775273a85}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-00000289" kind="CWC" role="CWC" guid="{f9983176-b65d-4b97-9a92-1c7e60e6e649}" relid="0x11" childrelidcntr="0x3">
-						<name>cfg17</name>
-						<attribute kind="CfgID">
-							<value>4F2DB331</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>f9983176-b65d-4b97-9a92-1c7e60e6e649</value>
-						</attribute>
-						<reference id="id-0067-000003b6" kind="DesignEntityRef" role="DesignEntityRef" guid="{a390725d-950a-4ddd-8e06-2038758f097e}" relid="0x1" referred="id-0067-00000375">
-							<name>CX35-P800_ref</name>
-						</reference>
-						<reference id="id-0067-000003b7" kind="DesignEntityRef" role="DesignEntityRef" guid="{8f5e8e7e-5e43-481f-9cb3-57599c6846ef}" relid="0x2" referred="id-0067-0000037b">
-							<name>C15_ref</name>
-						</reference>
-						<reference id="id-0067-000003b8" kind="NullOptionRef" role="NullOptionRef" guid="{ef2e9f3b-6fe8-4d48-877e-841274df1fe7}" relid="0x3" referred="id-0065-00000263">
-							<name>IntegratedStarterGenerator_null_ref</name>
-						</reference>
-					</model>
-					<model id="id-0065-0000028a" kind="CWC" role="CWC" guid="{694418f5-eece-40b7-91b3-6a69c9f44c1e}" relid="0x12" childrelidcntr="0x3">
-						<name>cfg18</name>
-						<attribute kind="CfgID">
-							<value>9C6AE90E</value>
-						</attribute>
-						<attribute kind="ID">
-							<value>694418f5-eece-40b7-91b3-6a69c9f44c1e</value>
-						</attribute>
-						<reference id="id-0067-000003b9" kind="DesignEntityRef" role="DesignEntityRef" guid="{05c4e870-8807-4691-8af5-99a6e57ec332}" relid="0x1" referred="id-0067-00000375">
-							<name>CX35-P800_ref</name>
-						</reference>
-						<reference id="id-0067-000003ba" kind="DesignEntityRef" role="DesignEntityRef" guid="{eb112ee2-0d7b-446d-956c-2f62c8827249}" relid="0x2" referred="id-0067-00000379">
-							<name>C9_ref</name>
-						</reference>
-						<reference id="id-0067-000003bb" kind="DesignEntityRef" role="DesignEntityRef" guid="{5ac64b51-27b2-414a-a847-eab4f13685cd}" relid="0x3" referred="id-0067-00000351">
-							<name>JenoptikISG_ref</name>
-						</reference>
-					</model>
 				</model>
 				<atom id="id-0066-000000e7" kind="SimpleFormula" role="SimpleFormula" guid="{ba50491c-e38b-4bb6-937c-13e161262ac5}" relid="0x4">
 					<name>SimpleFormula</name>
