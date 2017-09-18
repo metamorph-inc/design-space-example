@@ -1,0 +1,8 @@
+designs/
+design-space/
+log/
+requirements/
+results/
+test-benches/
+tmp/
+*.mga
