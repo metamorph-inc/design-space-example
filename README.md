@@ -8,7 +8,22 @@ Our sample project is based on component selection for the drivetrain for a heav
 
 In this architecture, we always have a **Diesel Engine** and a **Transmission**, and we have several _**alternatives**_ for each. They are joined by a driveshaft. We will always have a **Drivetrain Control Unit** that controls these via the CAN bus.
 
-_**Optionally**_, we may turn this into a hybrid drivetrain by adding an **Integrated Starter-Generator** and supporting **Hybrid System Elements**. The Integrated Starter-Generator sits in between the engine and transmission and is connected to each by a driveshaft. The Hybrid System Elements include the **Battery**, for which we have several alternatives. The other Hybrid System Elements are joined to the Drivetrain Control Unit via the CAN bus.
+_**Optionally**_, we may turn this into a hybrid drivetrain by adding an **Integrated Starter-Generator (ISG)** and supporting **Hybrid System Elements**. The Integrated Starter-Generator sits in between the engine and transmission and is connected to each by a driveshaft. The Hybrid System Elements include the **Battery**, for which we have several alternatives. The other Hybrid System Elements are joined to the Drivetrain Control Unit via the CAN bus.
+
+With this variability model, there are XXX possible instantiations of the system. _**Constraints**_ offer a method for rapidly reducing the number of instances under consideration.
+
+## Constraints
+With _**constraints**_, we can express the criteria that each combination must meet in order to be valid. There are two types of constraints that we will consider here: _**property**_ and _**implication**_.
+
+Constraint Concept | Type
+------------------ | ----
+The combined power of the engine and ISG cannot exceed the power-handling capacity of the transmission. | property
+If the ISG is selected for inclusion, then the other Hybrid System Elements must also be selected, and vice-versa. | implication
+The total mass of all components must not exceed 10,000 kg. | property
+If an ISG is selected, it must be capable of handling the power output of the engine. | property
+
+
+## Component Details
 
 Engine | Mass | Power | Price
 ------ | ---- | ------------- | -----
