@@ -19,7 +19,7 @@ Constraint Concept | Type
 ------------------ | ----
 The combined power of the engine and ISG cannot exceed the power-handling capacity of the transmission. | property
 If the ISG is selected for inclusion, then the other Hybrid System Elements must also be selected, and vice-versa. | implication
-The total mass of all components must not exceed 10,000 kg. | property
+The total mass of all components must not exceed 2,000 kg. | property
 If an ISG is selected, it must be capable of handling the power output of the engine. | property
 
 ### The combined power of the engine and ISG cannot exceed the power-handling capacity of the transmission.
@@ -38,6 +38,35 @@ From **Transmission** we take the **MaxPower** attribute and connect it to a _**
 We take the output of the _**Custom Formula**_ and assign it to **TransmissionPowerOverhead**.
 
 Finally, we create a _**Property Constraint**_ called _MustHaveTransmissionOverhead_ and attach it to **TransmissionPowerOverhead**. We set the constraint's _**TargetValue**_ to `0` and its _**TargetType**_ to `Must Exceed`.
+
+### If the ISG is selected for inclusion, then the other Hybrid System Elements must also be selected, and vice-versa.
+For this constraint, we capture the idea that these two elements must either be selected together or not selected at all. To represent this, we create a _**Visual Constraint**_ called **HybridSystemElementConsistency**. It will ensure that, if we choose to have an integrated starter-generator, then the required supporting elements will be selected as well. It will also ensure that we don't select those supporting elements unless we have an integrated starter-generator that will benefit from their inclusion.
+
+![HybridSystemElementConsistency](select_hybrid_elements.png)
+
+Navigate into **HybridSystemElementConsistency** to see its _implication_ rules. There are two references: one to **HybridSystemElements** and one to **IntegratedStarterGenerator**. The directed lines between them are marked with the word _**implies**_. This means that if **HybridSystemElements** is selected, it implies that **IntegratedStarterGenerator** was selected also. Because we have directed lines in both directions, this means that the reverse is also true.
+
+Any _valid_ system configuration will need to either have both of these items or none of them.
+
+![HybridSystemElementConsistency](select_hybrid_elements_inside.png)
+
+### The total mass of all components must not exceed 2,000 kg.
+For this constraint, we want to sum the mass of all of the components in our system, and only consider configurations where the total mass is 2,000 kg or less.
+
+We take the **Mass** property from each of the elements in our system and add them together using a _**SimpleFormula**_ in `addition` mode, sending the result to **TotalMass**. We then attach a _**PropertyConstraint**_ called **MassLimit** with _**TargetValue**_ of `2000` and _**TargetType**_ of `Must Exceed`.
+
+![Mass Limit Constraint](mass_limit_constraint.png)
+
+### If an ISG is selected, it must be capable of handling the power output of the engine.
+This constraint only applies for configurations where the **IntegratedStarterGenerator** is selected. In those cases, we want to ensure that the ISG is rated to handle the maximum power that can be created by the engine.
+
+At the system level, we take the **Engine**'s **MaximumPower** property and send it into the **IntegratedStarterGenerator** _**Optional**_ container. This will make it available for the constraint which we will define inside of it.
+
+![ISG Power Handling Value Routing](isg-power-handling-value-routing.png)
+
+Inside the **IntegratedStarterGenerator** container, we calculate the **PowerHandlingMargin** of the ISG by taking its **MaxPowerHandling** value and subtracting the **EngineMaxPower** that we retrieved from the engine at the system level. Wwe then attach the _**PropertyConstraint**_ **MustBeAbleToHandleEnginePower** to that value, with **TargetValue** of `0` and **TargetType** of `Must Exceed`.
+
+![ISG Power Handling Constraint](isg-power-handling-constraint.png)
 
 ## Component Details
 
