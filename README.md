@@ -32,7 +32,7 @@ For this constraint, we add the maximum power properties of the diesel engine an
 
 ![Must Have Transmission Overhead constraint](images/must_have_transmission_overhead.png)
 
-To represent this, we first take the **MaximumPower** attribute from **Engine** and the **MechanicalPowerProductionMax** attribute from **IntegratedStarterGenerator** and add them using a _**SimpleFormula**_, whose output we assign to **MaxPowerProduction**.
+To represent this, we take the **MaximumPower** attribute from **Engine** and the **MechanicalPowerProductionMax** attribute from **IntegratedStarterGenerator** and add them using a _**SimpleFormula**_, set for `Addition`, whose output we assign to **MaxPowerProduction**.
 
 From **Transmission** we take the **MaxPower** attribute and connect it to a _**Custom Formula**_ while renaming the variable **TransmissionMaxPower**. We assign **MaxPowerProduction** to that same _**Custom Formula**_, and enter the following formula in its _**Expression**_ attribute:
 
@@ -60,7 +60,7 @@ _The total mass of all components must not exceed 2,000 kg._
 
 For this constraint, we want to sum the mass of all of the components in our system, and only consider configurations where the total mass is 2,000 kg or less.
 
-We take the **Mass** property from each of the elements in our system and add them together using a _**SimpleFormula**_ in `addition` mode, sending the result to **TotalMass**. We then attach a _**PropertyConstraint**_ called **MassLimit** with _**TargetValue**_ of `2000` and _**TargetType**_ of `Must Exceed`.
+We take the **Mass** property from each of the elements in our system and add them together using a _**SimpleFormula**_, set for `Addition`, sending the result to **TotalMass**. We then attach a _**PropertyConstraint**_ called **MassLimit** with _**TargetValue**_ of `2000` and _**TargetType**_ of `Must Exceed`.
 
 ![Mass Limit Constraint](images/mass_limit_constraint.png)
 
@@ -82,6 +82,6 @@ _The drivetrain must be capable of producing at least 500 hp._
 
 For this constraint, we want to sum the power-producing capability of the diesel engine and, if selected, the integrated starter-generator. The resulting power must meet or exceed 500 hp.
 
-We take the **MaximumPower** property from **Engine** and the **MechanicalPowerProductionMax** property from **IntegratedStarterGenerator** and sum them using a _**SimpleFormula**_, sending the result to the **MaxPowerProduction** property. We attach the _**PropertyConstraint**_ **MinimumPower** to that value, with **TargetValue** of `500` and **TargetType** of `Must Meet or Exceed`.
+We take the **MaximumPower** property from **Engine** and the **MechanicalPowerProductionMax** property from **IntegratedStarterGenerator** and sum them using a _**SimpleFormula**_, set for `Addition`, sending the result to the **MaxPowerProduction** property. We attach the _**PropertyConstraint**_ **MinimumPower** to that value, with **TargetValue** of `500` and **TargetType** of `Must Meet or Exceed`.
 
 ![Minimum Power](images/minimum-power.png)
