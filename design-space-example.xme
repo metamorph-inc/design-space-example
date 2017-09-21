@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE project SYSTEM "mga.dtd">
 
-<project guid="{D4C1B3AE-4F4C-4C82-80BA-C319E3049DAC}" cdate="Wed Sep 20 16:54:22 2017" mdate="Wed Sep 20 16:54:22 2017" version="" metaguid="{3EF7D31C-84F2-0F54-1DE1-727298671826}" metaversion="$Rev: 29910 $" metaname="CyPhyML">
+<project guid="{464B8955-1F50-438A-A422-A2EE827B8F9B}" cdate="Wed Sep 20 16:54:22 2017" mdate="Wed Sep 20 16:54:22 2017" version="" metaguid="{3EF7D31C-84F2-0F54-1DE1-727298671826}" metaversion="$Rev: 29910 $" metaname="CyPhyML">
 	<name>design-space-example</name>
 	<comment></comment>
 	<author></author>
@@ -66,7 +66,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>77,357</value>
+								<value>245,448</value>
 							</regnode>
 						</regnode>
 						<regnode name="DynamicsAspect" status="undefined">
@@ -1017,7 +1017,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>77,119</value>
+								<value>245,210</value>
 							</regnode>
 						</regnode>
 						<regnode name="DynamicsAspect" status="undefined">
@@ -2055,7 +2055,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>70,238</value>
+								<value>238,329</value>
 							</regnode>
 						</regnode>
 						<regnode name="DynamicsAspect" status="undefined">
@@ -2209,14 +2209,14 @@
 							<value>0</value>
 						</attribute>
 					</atom>
-					<reference id="id-0067-00000003" kind="Parameter" role="Parameter" guid="{4dde29f7-de43-49d4-8515-bbf04e5ac1e7}" relid="0xc">
+					<reference id="id-0067-00000003" kind="Parameter" role="Parameter" guid="{4dde29f7-de43-49d4-8515-bbf04e5ac1e7}" relid="0xc" referred="id-0065-000001b2">
 						<name>EngineMaxPower</name>
 						<regnode name="PartRegs" status="undefined">
 							<value></value>
 							<regnode name="All" status="undefined">
 								<value></value>
 								<regnode name="Position" isopaque="yes">
-									<value>441,28</value>
+									<value>413,28</value>
 								</regnode>
 							</regnode>
 							<regnode name="DesignSpaceAspect" status="undefined">
@@ -2249,6 +2249,9 @@
 									<value>441,28</value>
 								</regnode>
 							</regnode>
+						</regnode>
+						<regnode name="autorouterPref" isopaque="yes">
+							<value>E</value>
 						</regnode>
 						<attribute kind="ComputationType" status="meta">
 							<value>Addition</value>
@@ -2284,7 +2287,7 @@
 							<value></value>
 						</attribute>
 					</reference>
-					<reference id="id-0067-00000004" kind="Property" role="Property" guid="{2b44cd81-5fb0-4a7f-9eba-3add8ff68221}" relid="0x10">
+					<reference id="id-0067-00000004" kind="Property" role="Property" guid="{2b44cd81-5fb0-4a7f-9eba-3add8ff68221}" relid="0x10" referred="id-0065-000001b2">
 						<name>PowerHandlingMargin</name>
 						<regnode name="PartRegs" status="undefined">
 							<value></value>
@@ -2831,7 +2834,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>84,560</value>
+								<value>252,651</value>
 							</regnode>
 						</regnode>
 						<regnode name="DynamicsAspect" status="undefined">
@@ -3142,14 +3145,14 @@
 							<attribute kind="NumAssociatedConfigs">
 								<value>12/14</value>
 							</attribute>
-							<reference id="id-0067-00000005" kind="Property" role="Property" guid="{0aea0955-9a78-4a05-b67a-fa61a8e836d5}" relid="0x1">
+							<reference id="id-0067-00000005" kind="Property" role="Property" guid="{0aea0955-9a78-4a05-b67a-fa61a8e836d5}" relid="0x1" referred="id-0066-00000013">
 								<name>Mass</name>
 								<regnode name="PartRegs" status="undefined">
 									<value></value>
 									<regnode name="All" status="undefined">
 										<value></value>
 										<regnode name="Position" isopaque="yes">
-											<value>140,140</value>
+											<value>91,126</value>
 										</regnode>
 									</regnode>
 									<regnode name="DesignSpaceAspect" status="undefined">
@@ -3182,6 +3185,9 @@
 											<value>147,252</value>
 										</regnode>
 									</regnode>
+								</regnode>
+								<regnode name="autorouterPref" isopaque="yes">
+									<value>e</value>
 								</regnode>
 								<attribute kind="ComputationType">
 									<value>Addition</value>
@@ -3220,14 +3226,14 @@
 									<value></value>
 								</attribute>
 							</reference>
-							<reference id="id-0067-00000006" kind="Property" role="Property" guid="{d736d983-3f6c-4ef0-b9ba-6dc128a30649}" relid="0x2">
+							<reference id="id-0067-00000006" kind="Property" role="Property" guid="{d736d983-3f6c-4ef0-b9ba-6dc128a30649}" relid="0x2" referred="id-0065-0000016d">
 								<name>NominalVoltage</name>
 								<regnode name="PartRegs" status="undefined">
 									<value></value>
 									<regnode name="All" status="undefined">
 										<value></value>
 										<regnode name="Position" isopaque="yes">
-											<value>714,175</value>
+											<value>714,161</value>
 										</regnode>
 									</regnode>
 									<regnode name="DesignSpaceAspect" status="undefined">
@@ -3260,6 +3266,9 @@
 											<value>714,140</value>
 										</regnode>
 									</regnode>
+								</regnode>
+								<regnode name="autorouterPref" isopaque="yes">
+									<value>w</value>
 								</regnode>
 								<attribute kind="ComputationType">
 									<value>Addition</value>
@@ -3298,14 +3307,14 @@
 									<value></value>
 								</attribute>
 							</reference>
-							<reference id="id-0067-00000007" kind="Property" role="Property" guid="{83afd007-e87c-4744-8f8c-4480f846859f}" relid="0x3">
+							<reference id="id-0067-00000007" kind="Property" role="Property" guid="{83afd007-e87c-4744-8f8c-4480f846859f}" relid="0x3" referred="id-0065-00000019">
 								<name>EnergyCapacity</name>
 								<regnode name="PartRegs" status="undefined">
 									<value></value>
 									<regnode name="All" status="undefined">
 										<value></value>
 										<regnode name="Position" isopaque="yes">
-											<value>714,133</value>
+											<value>714,119</value>
 										</regnode>
 									</regnode>
 									<regnode name="DesignSpaceAspect" status="undefined">
@@ -3338,6 +3347,9 @@
 											<value>714,140</value>
 										</regnode>
 									</regnode>
+								</regnode>
+								<regnode name="autorouterPref" isopaque="yes">
+									<value>w</value>
 								</regnode>
 								<attribute kind="ComputationType">
 									<value>Addition</value>
@@ -3576,7 +3588,7 @@
 								<regnode name="All" status="undefined">
 									<value></value>
 									<regnode name="Position" isopaque="yes">
-										<value>49,280</value>
+										<value>56,280</value>
 									</regnode>
 								</regnode>
 								<regnode name="DesignSpaceAspect" status="undefined">
@@ -3617,7 +3629,7 @@
 								<value>Addition</value>
 							</attribute>
 						</atom>
-						<reference id="id-0067-00000008" kind="Property" role="Property" guid="{20ae2db0-6ca6-4617-a829-ae810a7e1e20}" relid="0xd">
+						<reference id="id-0067-00000008" kind="Property" role="Property" guid="{20ae2db0-6ca6-4617-a829-ae810a7e1e20}" relid="0xd" referred="id-0066-00000013">
 							<name>Mass</name>
 							<regnode name="PartRegs" status="undefined">
 								<value></value>
@@ -3695,7 +3707,7 @@
 								<value></value>
 							</attribute>
 						</reference>
-						<reference id="id-0067-00000009" kind="Property" role="Property" guid="{3cfc2201-7282-4ec5-b4e5-776679049322}" relid="0x14">
+						<reference id="id-0067-00000009" kind="Property" role="Property" guid="{3cfc2201-7282-4ec5-b4e5-776679049322}" relid="0x14" referred="id-0065-00000019">
 							<name>BatteryEnergyCapacity</name>
 							<regnode name="PartRegs" status="undefined">
 								<value></value>
@@ -4158,7 +4170,7 @@
 							<connpoint role="dst" target="id-0067-00000009"/>
 						</connection>
 					</model>
-					<reference id="id-0067-0000000a" kind="Property" role="Property" guid="{fc6c05e2-cbbe-45a8-98eb-ff706ebccd6e}" relid="0x5">
+					<reference id="id-0067-0000000a" kind="Property" role="Property" guid="{fc6c05e2-cbbe-45a8-98eb-ff706ebccd6e}" relid="0x5" referred="id-0066-00000013">
 						<name>Mass</name>
 						<regnode name="PartRegs" status="undefined">
 							<value></value>
@@ -4252,7 +4264,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>511,581</value>
+								<value>679,672</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -4319,7 +4331,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>84,455</value>
+								<value>252,546</value>
 							</regnode>
 						</regnode>
 						<regnode name="SimulinkAspect" status="undefined">
@@ -4361,13 +4373,13 @@
 						<regnode name="All" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>686,308</value>
+								<value>700,308</value>
 							</regnode>
 						</regnode>
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>539,245</value>
+								<value>707,336</value>
 							</regnode>
 						</regnode>
 						<regnode name="SimulinkAspect" status="undefined">
@@ -4409,7 +4421,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>280,511</value>
+								<value>448,602</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -4436,7 +4448,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>693,294</value>
+								<value>861,385</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -4469,7 +4481,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>357,140</value>
+								<value>511,231</value>
 							</regnode>
 						</regnode>
 						<regnode name="SimulinkAspect" status="undefined">
@@ -4511,7 +4523,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>518,56</value>
+								<value>686,147</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -4528,13 +4540,13 @@
 						<value>false</value>
 					</attribute>
 					<attribute kind="TargetType">
-						<value>Must Exceed</value>
+						<value>Must Equal or Exceed</value>
 					</attribute>
 					<attribute kind="TargetValue">
 						<value>500</value>
 					</attribute>
 				</atom>
-				<reference id="id-0067-0000000c" kind="Property" role="Property" guid="{c67c924c-5c61-4db8-b042-00dd88b6a5e9}" relid="0x3">
+				<reference id="id-0067-0000000c" kind="Property" role="Property" guid="{c67c924c-5c61-4db8-b042-00dd88b6a5e9}" relid="0x3" referred="id-0066-00000013">
 					<name>TotalMass</name>
 					<regnode name="PartRegs" status="undefined">
 						<value></value>
@@ -4547,7 +4559,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>252,462</value>
+								<value>420,553</value>
 							</regnode>
 						</regnode>
 						<regnode name="SimulinkAspect" status="undefined">
@@ -4612,20 +4624,20 @@
 						<value></value>
 					</attribute>
 				</reference>
-				<reference id="id-0067-0000000d" kind="Property" role="Property" guid="{6c043d90-f01f-4d15-bed8-a6bf6ca6671d}" relid="0x9">
+				<reference id="id-0067-0000000d" kind="Property" role="Property" guid="{6c043d90-f01f-4d15-bed8-a6bf6ca6671d}" relid="0x9" referred="id-0065-000001b2">
 					<name>TransmissionPowerOverhead</name>
 					<regnode name="PartRegs" status="undefined">
 						<value></value>
 						<regnode name="All" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>749,301</value>
+								<value>763,301</value>
 							</regnode>
 						</regnode>
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>602,238</value>
+								<value>770,329</value>
 							</regnode>
 						</regnode>
 						<regnode name="SimulinkAspect" status="undefined">
@@ -4690,7 +4702,7 @@
 						<value></value>
 					</attribute>
 				</reference>
-				<reference id="id-0067-0000000e" kind="Property" role="Property" guid="{b5d92027-149b-454b-b4cb-a81710d01aae}" relid="0x1f">
+				<reference id="id-0067-0000000e" kind="Property" role="Property" guid="{b5d92027-149b-454b-b4cb-a81710d01aae}" relid="0x1f" referred="id-0065-000001b2">
 					<name>MaxPowerProduction</name>
 					<regnode name="PartRegs" status="undefined">
 						<value></value>
@@ -4703,7 +4715,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>455,147</value>
+								<value>609,238</value>
 							</regnode>
 						</regnode>
 						<regnode name="SimulinkAspect" status="undefined">
@@ -4805,7 +4817,7 @@
 						<regnode name="DesignSpaceAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>112,14</value>
+								<value>280,105</value>
 							</regnode>
 						</regnode>
 						<regnode name="DynamicsAspect" status="undefined">
