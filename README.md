@@ -60,7 +60,7 @@ We take the **Mass** property from each of the elements in our system and add th
 ### If an ISG is selected, it must be capable of handling the power output of the engine.
 This constraint only applies for configurations where the **IntegratedStarterGenerator** is selected. In those cases, we want to ensure that the ISG is rated to handle the maximum power that can be created by the engine.
 
-At the system level, we route the **Engine**'s **MaximumPower** property into the **IntegratedStarterGenerator** _**Optional**_ container. This will make it available for the constraint which we will define inside of it.
+At the system level, we route the **Engine**'s **MaximumPower** property into the **IntegratedStarterGenerator** _**Optional**_ container. This will make the **MaximumPower** property available to _**Optional**_ container's internal constraint definition.
 
 ![ISG Power Handling Value Routing](images/isg-power-handling-value-routing.png)
 
