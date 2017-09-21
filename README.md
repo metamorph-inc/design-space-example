@@ -2,18 +2,18 @@
 This OpenMETA project demonstrates the variability structures and constraints available as part of the Design Space feature.
 
 ## Variability Model
-Our sample project is based on component selection for the drivetrain for a heavy vehicle. We want to consider a number of diesel engines as transmissions, as well as options for a hybrid drivetrain.
+Our sample project is based on component selection for the drivetrain of a heavy vehicle. We want to consider a number of diesel engines and transmissions, as well as options for a hybrid drivetrain.
 
 [![image of system variability architecture](images/architecture.svg)](https://docs.google.com/drawings/d/1vpe10HUfPfzYQmR3JW2pXkALklzd0Or0NvBXizgAnLQ/edit?usp=sharing)
 
 In this architecture, we always have a **Diesel Engine** and a **Transmission**, and we have several _**alternatives**_ for each. They are joined by a driveshaft. We will always have a **Drivetrain Control Unit** that controls these via the CAN bus.
 
-_**Optionally**_, we may turn this into a hybrid drivetrain by adding an **Integrated Starter-Generator (ISG)** and supporting **Hybrid System Elements**. The Integrated Starter-Generator sits in between the engine and transmission and is connected to each by a driveshaft. The Hybrid System Elements include the **Battery**, for which we have several alternatives. The other Hybrid System Elements are joined to the Drivetrain Control Unit via the CAN bus.
+_**Optionally**_, we can turn this into a hybrid drivetrain by adding an **Integrated Starter-Generator (ISG)** and supporting **Hybrid System Elements**. The Integrated Starter-Generator sits between the engine and transmission and is connected to each by a driveshaft. The Hybrid System Elements include the **Battery**, for which we have several alternatives, the **High-Voltage Battery Power Converter**, the **Hybrid Control Unit**, and the **Generator Control Unit**. The other Hybrid System Elements are joined to the Drivetrain Control Unit via the CAN bus.
 
-With this variability model, there are 200 possible instantiations of the system. _**Constraints**_ offer a method for rapidly reducing the number of instances under consideration. After applying all of the constraints, only 14 of the 200 possibilities remain.
+This varability model provides us with 200 distinct drivetrain configurations. We can then use _**Constraints**_ to reduce the number of configuration instances under consideration. After applying all of the constraints, only 14 of the original 200 possibilities remain.
 
 ## Constraints
-With _**constraints**_, we can express the criteria that each combination must meet in order to be valid. There are two types of constraints that we will consider here: _**property**_ and _**implication**_.
+With _**constraints**_, we can express the criteria that each configuration must meet in order to be valid. There are two types of constraints that we will consider here: _**property**_ and _**implication**_.
 
 Constraint Name | Concept | Type
 --------------- | ------- | ----
@@ -32,7 +32,7 @@ For this constraint, we add the maximum power properties of the diesel engine an
 
 ![Must Have Transmission Overhead constraint](images/must_have_transmission_overhead.png)
 
-To represent this, we first take the **MaximumPower** attribute from **Engine** and the **MechanicalPowerProductionMax** attribute from **IntegratedStarterGenerator** and route them into a _**SimpleFormula**_, whose output we assign the **MaxPowerProduction**.
+To represent this, we first take the **MaximumPower** attribute from **Engine** and the **MechanicalPowerProductionMax** attribute from **IntegratedStarterGenerator** and add them using a _**SimpleFormula**_, whose output we assign to **MaxPowerProduction**.
 
 From **Transmission** we take the **MaxPower** attribute and connect it to a _**Custom Formula**_ while renaming the variable **TransmissionMaxPower**. We assign **MaxPowerProduction** to that same _**Custom Formula**_, and enter the following formula in its _**Expression**_ attribute:
 
@@ -49,7 +49,7 @@ For this constraint, we capture the idea that these two elements must either be 
 
 ![HybridSystemElementConsistency](images/select_hybrid_elements.png)
 
-Navigate into **HybridSystemElementConsistency** to see its _implication_ rules. There are two references: one to **HybridSystemElements** and one to **IntegratedStarterGenerator**. The directed lines between them are marked with the word _**implies**_. This means that if **HybridSystemElements** is selected, it implies that **IntegratedStarterGenerator** was selected also. Because we have directed lines in both directions, this means that the reverse is also true.
+Double-click **HybridSystemElementConsistency** to see its _implication_ rules. There are two references: one to **HybridSystemElements** and one to **IntegratedStarterGenerator**. The directed lines between them are marked with the word _**implies**_. This means that if **HybridSystemElements** is selected, it implies that **IntegratedStarterGenerator** was selected also. Because we have directed lines in both directions, this means that the reverse is also true.
 
 Any _valid_ system configuration will need to either have both of these items or none of them.
 
@@ -69,7 +69,7 @@ _If an ISG is selected, it must be capable of handling the power output of the e
 
 This constraint only applies for configurations where the **IntegratedStarterGenerator** is selected. In those cases, we want to ensure that the ISG is rated to handle the maximum power that can be created by the engine.
 
-At the system level, we take the **Engine**'s **MaximumPower** property and send it into the **IntegratedStarterGenerator** _**Optional**_ container. This will make it available for the constraint which we will define inside of it.
+At the system level, we route the **Engine**'s **MaximumPower** property into the **IntegratedStarterGenerator** _**Optional**_ container. This will make the **MaximumPower** property available to _**Optional**_ container's internal constraint definition.
 
 ![ISG Power Handling Value Routing](images/isg-power-handling-value-routing.png)
 
