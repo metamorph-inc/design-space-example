@@ -6,3 +6,4 @@ results/
 test-benches/
 tmp/
 *.mga
+*.bak
